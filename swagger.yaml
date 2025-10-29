@@ -98,15 +98,15 @@ components:
       type: object
       properties:
         id: { type: integer, example: 1 }
-        nama: { type: string, example: "Yosi" }
+        nama: { type: string, example: "Timothy" }
         jurusan: { type: string, example: "SIJA" }
-        absen: { type: integer, example: 33 }
+        absen: { type: integer, example: 30 }
         kelas: { type: integer, example: 12}
         alamat: { type: string, example: "Jl. Sekardangan" }
-        telepon: { type: string, example: "087856249352" }
-        email: { type: string, example: "yosi@gmail.com" }
-        tanggal_lahir: { type: string, format: date, example: "2007-12-05" }
-        jenis_kelamin: { type: string, example: "Perempuan"  }  
+        telepon: { type: string, example: "082233285919" }
+        email: { type: string, example: "timothy@gmail.com" }
+        tanggal_lahir: { type: string, format: date, example: "2008-07-13" }
+        jenis_kelamin: { type: string, example: "Laki Laki"  }  
     SiswaInput:
       type: object
       required: [nama, jurusan, kelas, absen, alamat, telepon, email, tanggal_lahir, jenis_kelamin]
